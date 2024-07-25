@@ -2,4 +2,4 @@
 
 My personal settings for development
 
-![dd](./settings.json)
+[Vscode settings](./settings.json)
