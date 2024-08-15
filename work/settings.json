@@ -48,7 +48,7 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "0xProto Nerd Font",
+  "terminal.integrated.fontFamily": "ComicShannsMono Nerd Font",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
