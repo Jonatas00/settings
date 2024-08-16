@@ -121,4 +121,10 @@
   "workbench.colorTheme": "Andromeda but Darker",
   "go.toolsManagement.autoUpdate": true,
   "window.systemColorTheme": "dark",
+  "git.confirmSync": false,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+
+  "workbench.sideBar.location": "right"
 }
