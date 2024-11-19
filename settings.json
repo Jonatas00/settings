@@ -20,7 +20,10 @@
     ".env.example": "gear"
   },
   "tailwindCSS.experimental.classRegex": [
-    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
   ],
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -43,7 +46,7 @@
     "javascript": "jsx"
   },
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "explorer.compactFolders": false,
+  "explorer.compactFolders": true,
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
@@ -72,8 +75,6 @@
   },
   "workbench.iconTheme": "helium-icon-theme",
   "update.mode": "start",
-  "terminal.integrated.gpuAcceleration": "off",
-  "terminal.integrated.defaultProfile.osx": "fish",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -97,19 +98,16 @@
     ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
-  "files.autoSave": "onFocusChange",
-
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   //minimalist settings
-  "editor.glyphMargin": true, // removes the space used mainly for debugging indicators
+  "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
   "editor.renderLineHighlight": "none", // removes line highlight
   "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
   "editor.renderWhitespace": "none", // removes whitespace chars
   "editor.minimap.enabled": false, // removes minimap
   "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
   "workbench.editor.showIcons": false, // removes icon from opened files in tabs
-  "workbench.colorCustomizations": { // object that allows you to customize your color theme: https://code.visualstudio.com/docs/getstarted/theme-color-reference 
-    "tab.activeBorder": "#ff000000" // removes border to highlight active tabs (the colors formats are: #RGB, #RGBA, #RRGGBB or #RRGGBBAA)
-  },
   "editor.stickyScroll.enabled": false,
   "editor.renderControlCharacters": false,
   "outline.collapseItems": "alwaysCollapse",
@@ -118,13 +116,17 @@
   "workbench.layoutControl.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.menuBarVisibility": "compact",
-  "workbench.colorTheme": "Andromeda but Darker",
+  "workbench.colorTheme": "Andromeda",
   "go.toolsManagement.autoUpdate": true,
-  "window.systemColorTheme": "dark",
   "git.confirmSync": false,
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
-
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "editor.foldingHighlight": false,
+  "editor.formatOnSave": true,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "window.density.editorTabHeight": "compact",
+  "glassit.alpha": 230
 }
